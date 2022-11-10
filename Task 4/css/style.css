@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.logo svg{
+    width: 60%;
+}
+.logo{
+    float: left;
+}
+.navbar{
+    float: right;
+    margin-top: 7px;
+}
+#Header{
+    overflow: auto;
+    padding: 20px 5rem;
+    position: fixed;
+    width: 100%;
+}
+.navbar a{
+    color: #fff;
+    font-size: 16;
+    margin-left: 30px;
+}
+#Slayder{
+    background-image: url(https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 1rem 0;
+}
+#Slayder h3{
+    color: #fff;
+    font-size: 45px;
+    margin: 0 0 32px;
+    font-style: italic;
+}
+#Slayder h1{
+    color: #fff;
+    font-size: 65px;
+    margin: 0 0 64px;
+}
+#Slayder a{
+    padding: 1.25rem 2.5rem;
+    font-size: 1.125rem;
+    color: #fff;
+    background-color: #ffc800;
+    border-color: #ffc800;
+}
+.first{
+    padding: 6rem 0;
+}
+.services{
+    text-align: center;
+}
+.services h1{
+    font-size: 30px;
+    margin-bottom: 1rem;
+}
+.services span{
+    color: #6c757d;
+    font-size: 20px;
+    font-style: italic;
+}
+.services-box{
+    width: 15%;
+    float: left;
+    margin: 1rem 6rem  8rem;
+    overflow: hidden;
+}
+.services-box img{
+    width: 100%;
+    vertical-align: bottom;
+}
+.services-content{
+    padding: 10px;
+}
+
+
+.second{
+    text-align: center;
+}
+.portfolio h1{
+    font-size: 30px;
+    margin: 1rem ;
+}
+.portfolio span{
+    color: #6c757d;
+    font-size: 20px;
+    font-style: italic;
+}
+.portfolio-box{
+    width: 25%;
+    float: left;
+    overflow: hidden;
+    margin: 3rem 2rem 2rem 1rem;
+}
+.portfolio-box image{
+    width: 100%;
+    vertical-align: bottom;
+}
